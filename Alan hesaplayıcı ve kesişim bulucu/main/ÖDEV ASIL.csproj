@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5A2EA0A-3993-4D57-A82D-B1F77D010CB9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ÖDEV_ASIL</RootNamespace>
+    <AssemblyName>ÖDEV ASIL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dikdörtgendikdörtgen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dikdörtgendikdörtgen.Designer.cs">
+      <DependentUpon>dikdörtgendikdörtgen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dikdörtgenprizmadikdörtgenprizma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dikdörtgenprizmadikdörtgenprizma.Designer.cs">
+      <DependentUpon>dikdörtgenprizmadikdörtgenprizma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dikdörtgençember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dikdörtgençember.Designer.cs">
+      <DependentUpon>dikdörtgençember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="küredikdörtgenlerprizması.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="küredikdörtgenlerprizması.Designer.cs">
+      <DependentUpon>küredikdörtgenlerprizması.cs</DependentUpon>
+    </Compile>
+    <Compile Include="küreküre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="küreküre.Designer.cs">
+      <DependentUpon>küreküre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="küresilindir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="küresilindir.Designer.cs">
+      <DependentUpon>küresilindir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noktadikdörtgenprizma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noktadikdörtgenprizma.Designer.cs">
+      <DependentUpon>noktadikdörtgenprizma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noktadörtgen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noktadörtgen.Designer.cs">
+      <DependentUpon>noktadörtgen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noktaküre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noktaküre.Designer.cs">
+      <DependentUpon>noktaküre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noktasilindir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noktasilindir.Designer.cs">
+      <DependentUpon>noktasilindir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="noktaçember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="noktaçember.Designer.cs">
+      <DependentUpon>noktaçember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="silindirsilindir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="silindirsilindir.Designer.cs">
+      <DependentUpon>silindirsilindir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yüzeydikdörtgenprizma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yüzeydikdörtgenprizma.Designer.cs">
+      <DependentUpon>yüzeydikdörtgenprizma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yüzeyküre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yüzeyküre.Designer.cs">
+      <DependentUpon>yüzeyküre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yüzeysilindir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yüzeysilindir.Designer.cs">
+      <DependentUpon>yüzeysilindir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="çemberçember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="çemberçember.Designer.cs">
+      <DependentUpon>çemberçember.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="dikdörtgendikdörtgen.resx">
+      <DependentUpon>dikdörtgendikdörtgen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dikdörtgenprizmadikdörtgenprizma.resx">
+      <DependentUpon>dikdörtgenprizmadikdörtgenprizma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dikdörtgençember.resx">
+      <DependentUpon>dikdörtgençember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="küredikdörtgenlerprizması.resx">
+      <DependentUpon>küredikdörtgenlerprizması.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="küreküre.resx">
+      <DependentUpon>küreküre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="küresilindir.resx">
+      <DependentUpon>küresilindir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noktadikdörtgenprizma.resx">
+      <DependentUpon>noktadikdörtgenprizma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noktadörtgen.resx">
+      <DependentUpon>noktadörtgen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noktaküre.resx">
+      <DependentUpon>noktaküre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noktasilindir.resx">
+      <DependentUpon>noktasilindir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noktaçember.resx">
+      <DependentUpon>noktaçember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="silindirsilindir.resx">
+      <DependentUpon>silindirsilindir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yüzeydikdörtgenprizma.resx">
+      <DependentUpon>yüzeydikdörtgenprizma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yüzeyküre.resx">
+      <DependentUpon>yüzeyküre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yüzeysilindir.resx">
+      <DependentUpon>yüzeysilindir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="çemberçember.resx">
+      <DependentUpon>çemberçember.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
